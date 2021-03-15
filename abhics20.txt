@@ -1,0 +1,9 @@
+n=input("enter value=")
+if n>="a" and n<="z":
+            print("lower case")
+elif n>="A" and n<="Z":
+            print("upper case")
+elif n>='0' and n<='9':
+            print("digits")
+else:
+          print("special characters")
