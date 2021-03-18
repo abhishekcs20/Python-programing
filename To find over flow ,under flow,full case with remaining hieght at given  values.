@@ -1,0 +1,16 @@
+h=10
+r=5
+f=10
+t=int(input("Enter time"))
+Vtank=3.14*r**2*h
+Vwater=f*t
+if Vwater<Vtank:
+   print("Under flow")
+   height=Vwater/(3.14*r**2*h)
+   heightremain=h-height
+   print(f' filled height {height} and remains height{height} ')
+elif Vwater==Vtank:
+   print("Tank Full")
+else:
+   print("Over Flow Condition")
+   print("Value of " Vwater-Vtank)
