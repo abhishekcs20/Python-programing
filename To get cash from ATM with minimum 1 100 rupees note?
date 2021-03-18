@@ -1,0 +1,11 @@
+a=int(input("Enter Amount to withdraw"))
+a=a-100
+h=1
+t=a//2000
+print("Notes of 2000 are:",t)
+a=a-2000*t
+f=a//500
+print("Notes of 500 are:",f)
+a=a-500*f
+h=h+(a//100)
+print("Notes of 100 are:",h)
