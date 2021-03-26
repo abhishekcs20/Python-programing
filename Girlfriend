@@ -1,0 +1,23 @@
+n=int(input())
+s=0
+if n!=0:
+    a=int(n/5)
+    s+=a
+    n=n%5
+if n!=0:
+    b=int(n/4)
+    s+=b
+    n=n%4
+if n!=0:
+    c=int(n/3)
+    s+=c
+    n=n%3
+if n!=0:
+    d=int(n/2)
+    s+=d
+    n=n%2
+if n!=0:
+    e=int(n/1)
+    s+=e
+    n=n%5
+print(s)
